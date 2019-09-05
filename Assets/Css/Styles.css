@@ -1,0 +1,271 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("Nexa Bold.otf");
+}
+.nav-link, .dropdown-item{
+	font-size: 12px !important;
+}
+#main-ind{
+	text-decoration: none;
+}
+.nav-item:hover,.dropdown-menu .dropdown-item:hover{
+	background-color: #717171 !important;
+}
+.align-left{
+	text-align: left !important;
+}
+.navbar{
+	padding: 0px;
+	cursor: pointer;
+}
+html{
+	height: 100%;
+}
+.tracks{
+	font-family: 'Tinos', serif;
+}
+.margin-text{
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: justify;
+}
+.comingsoonwrap{
+	padding-top: 8%;
+	padding-bottom: 8%;
+	text-align: center;
+}
+.dropdown-menu{
+	background-color: #343a40 !important;
+	font-family: 'Roboto Condensed' !important;
+	margin:0px !important;
+	border: 0px !important;
+	border-radius: 0px !important;
+}
+.dropdown-item{
+	color: #FFF !important;
+}
+.dropdown-item:hover{
+	background-color: #343a40 !important;
+}
+.coming-soon{
+	font-family: 'Roboto Condensed';
+}
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../Images/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+body{
+	margin-top: 45px;
+	min-height: 100%;
+	padding-bottom: 20px;
+}
+a{
+	text-decoration: none !important;
+}
+h1,h2{
+  text-align: center;
+}
+.navbar-brand{
+	padding: 0px 0px;
+}
+.nav1{
+  background-color: #000;
+}
+.nav-link{
+	color: #FFF !important;
+	font-family: 'Roboto Condensed';
+}
+.logo{
+	text-align: center;
+}
+.align-center{
+	text-align: center;
+}
+.logo img{
+	height:80px;
+	width: auto;
+}
+.align-center{
+	text-align: center;
+}
+h4{
+	font-family: 'Assistant';
+
+}
+p,li{
+	font-family: 'Tinos', serif;
+	font-size: 18px;
+}
+.generic h1,h3{
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #c25b4e;
+	font-family: 'Nexa', sans-serif;
+}
+#contact{
+	text-align: center;
+}
+#logoWrap{
+	padding: 10px;
+}
+hr{
+	border-top:0px !important;
+}
+.carousel-item{
+	height: auto;
+	overflow: hidden;
+}
+.carousel-item img{
+	width: 100%;
+	height: auto;
+}
+.seperator{
+	margin: 0px;
+}
+.title-font{
+	font-family: 'Nexa', sans-serif !important;
+	text-decoration: underline;
+	text-decoration-color: #c25b4e;
+}
+.title{
+	font-family: 'Nexa', sans-serif !important;
+	font-size: 35px !important;
+	text-decoration: underline;
+	text-decoration-color: #c25b4e;
+}
+.usefullinks{
+	text-align: center;
+	width: 100%;
+}
+.usefullinks h4{
+	text-decoration: underline;
+	text-decoration-color: #c25b4e;
+	font-family: 'Anton', sans-serif;
+}
+.usefullinks a{
+	font-family: 'Roboto Condensed';
+}
+html, body, 
+{
+width: 100%;
+height: 100%;
+}
+.card-title{
+	text-align: center;
+}
+.container
+{
+width: 960px;
+margin: 0 auto;
+}
+.timeWrap h1{
+	font-family: "Anton";
+	text-decoration: underline;
+	text-decoration-color: #c25b4e;
+}
+.card{
+	margin: 5px;
+	text-align: center;
+}
+.card-header{
+	font-family: "Nexa";
+	color: #82423a;
+}
+.card-body{
+	font-family: 'Tinos', serif;
+	text-align: left;
+}
+.logos{
+	text-align: center;
+	background-color: #FFF;
+}
+.logos img{
+	width: 100%;
+	height: auto;
+}
+
+.footer>h3{
+	font-family: 'Anton', sans-serif;
+	text-align: center !important;
+	text-decoration: underline;
+	text-decoration-color: #c25b4e;
+}
+.footer{
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+}
+.footer a{
+	color: #FFF;
+	text-decoration: none;
+}
+.footText{
+	text-align: center;
+	width: 100%;
+	font-family: 'Roboto Condensed';
+	font-size: 10px;	
+	margin-bottom: 0px;
+}
+.title-special{
+	font-family: "Comfortaa";
+	text-decoration: underline;
+	text-decoration-color: #c25b4e;
+}
+/** media queries **/
+@media (max-width: 1000px){
+	.nav-link, .dropdown-item{
+	font-size: 12px !important;
+}
+
+}
+@media (max-width: 991px) {
+	.comingsoonwrap{
+	padding-top: 18%;
+	padding-bottom: 18%;
+	text-align: center;
+}
+
+}
+
+@media (max-width: 700px) {
+	.bg-dark{
+		background-color: rgba(0,0,0,0.7) !important;
+	}
+	.dropdown-menu{
+		background-color: rgba(0,0,0,0.0) !important;
+	}
+	.dropdown-item:hover{
+		background-color: rgba(0,0,0,0.0) !important;
+	}
+	.comingsoonwrap{
+	padding-top: 18%;
+	padding-bottom: 18%;
+	text-align: center;
+}
+  .logos img{
+  	width: 100%;
+  	height: auto;
+  }
+   .carousel-item img{
+	width: auto !important;
+	height: 100% !important;
+   }
+   .carousel-item{
+	height: 180px !important;
+	}
+	h1{
+		font-size: 25px;
+	}
+	h4{
+		font-size: 20px;
+	}
+}
